@@ -70,7 +70,7 @@
      if(sss<10){undefined
     sss = "0"+sss;
     }else if(sss>=10 && sss<100){undefined
-    sss = (sss-(sss%10))/10;
+    sss = parseInt(sss/10)+sss%10;
     }
     
     document.getElementById(timeID.id).innerHTML =  m+"-"+d+"   "+h+":"+minute+":"+s+"."+sss+"  ";
