@@ -71,8 +71,10 @@
     sss = "0"+sss;
     }else if(sss>=10 && sss<=99){undefined
     sss=sss;
-    }else {undefined
+    }else if(sss<1000) {undefined
     sss = parseInt(sss/10);
+    }else{undefined
+    sss=parseInt(sss/10)-1;
     }
     
     document.getElementById(timeID.id).innerHTML =  m+"-"+d+"   "+h+":"+minute+":"+s+"."+sss+"  ";
