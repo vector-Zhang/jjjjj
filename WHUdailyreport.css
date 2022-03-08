@@ -7,6 +7,7 @@
 .father{
     overflow: hidden;
     position: relative;
+    margin-top: -21px;
 }
 
 .image{
@@ -47,7 +48,7 @@
     z-index: 4;
     position: fixed;
     left:12%;
-    top: 4.2%;
+    top: 3.4%;
     font-size: 4.6vw;
 }
 
@@ -71,7 +72,7 @@
     position: fixed;
     z-index: 3;
     left:6.1%;
-    top: 5%;
+    top: 4%;
     width:2.5%;
     padding-bottom: 2.5%;
 }
@@ -87,7 +88,7 @@
     position: fixed;
     z-index: 5;
     left: 75%;
-    top:4%;
+    top:3%;
     width: 23%;
     padding-bottom: 23%;
 }
@@ -109,5 +110,5 @@
     color:rgb(0,162,65) ;
     font-size: 9vw;
     font-family: SimHei;
-    font-weight: 600;
+    font-weight: bolder;
 }
